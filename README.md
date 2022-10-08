@@ -12,7 +12,7 @@ usage
 --
 you can use an iframe like the one below or load it in a `div` with jquery or javascript.
 ```html
-<iframe src="https://smb.yiu.ch/#<steamid>"
+<iframe src="https://charlesyiu.github.io/steam-miniprofile/index.html#<steamid>"
     style="border:0px #ffffff none;"
     name="my steam profile"
     scrolling="no"
