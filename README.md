@@ -12,15 +12,15 @@ usage
 --
 you can use an iframe like the one below or load it in a `div` with jquery or javascript.
 ```html
-<iframe src="https://charlesyiu.github.io/steam-miniprofile/index.html#<steamid>"
-    style="border:0px #ffffff none;"
+<iframe src="https://charlesyiu.github.io/steam-miniprofile/index.min.html#<steamid>"
+    style="border: none;"
     name="my steam profile"
     scrolling="no"
     frameborder="1"
     marginheight="0px"
     marginwidth="0px"
-    height="400px"
-    width="600px"
+    height="265px"
+    width="325px"
     allowfullscreen>
 </iframe>
 ```
