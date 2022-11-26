@@ -12,11 +12,11 @@ usage
 --
 either embed a script that creates a frame for you
 ```html
-<script src="https://smb.yiu.ch/embed.min.js" data-id="1201116503"></script>
+<script src="https://smp.yiu.ch/embed.min.js" data-id="1201116503"></script>
 ```
 or do it yourself with an iframe like the one below.
 ```html
-<iframe src="https://smb.yiu.ch/index.min.html<steamid>"
+<iframe src="https://smp.yiu.ch/index.min.html<steamid>"
     style="border: none;"
     name="my steam profile"
     scrolling="no"
