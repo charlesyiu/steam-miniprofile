@@ -10,9 +10,13 @@ and removes unnecessary trackers and libraries:
 
 usage
 --
-you can use an iframe like the one below or load it in a `div` with jquery or javascript.
+either embed a script that creates a frame for you
 ```html
-<iframe src="https://charlesyiu.github.io/steam-miniprofile/index.min.html#<steamid>"
+<script src="https://smb.yiu.ch/embed.min.js" data-id="1201116503"></script>
+```
+or do it yourself with an iframe like the one below.
+```html
+<iframe src="https://smb.yiu.ch/index.min.html<steamid>"
     style="border: none;"
     name="my steam profile"
     scrolling="no"
@@ -25,3 +29,9 @@ you can use an iframe like the one below or load it in a `div` with jquery or ja
 </iframe>
 ```
 please note that instead of putting your steam id as a search parameter (`?accountId=<steamid>`) you put it in the hash (`#<steamid>`)
+
+urls
+--
+if https://smb.yiu.ch does not load, please replace the hostname to:
+- https://charlesyiu.github.io/steam-miniprofile/<file>
+- https://steam-miniprofile.pages.dev/<file>
